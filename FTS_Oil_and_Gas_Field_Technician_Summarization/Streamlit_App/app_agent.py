@@ -69,7 +69,7 @@ st.markdown("""
 
 solution_name = '''Solution 1: LogLynx – AI-driven Field Technician Task Summarization'''
 solution_name_clean = '''loglynx_–_ai_driven_field_technician_task_summarization'''
-table_name = '''LOGLYNX'''
+table_name = '''FTS_RECORDS'''
 table_description = '''Consolidated data from field technician logs, CMMS, and ERP systems for LogLynx solution'''
 solution_content = '''Solution 1: LogLynx – AI-driven Field Technician Task Summarization**
 
