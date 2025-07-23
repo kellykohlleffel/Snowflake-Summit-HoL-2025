@@ -157,7 +157,7 @@ Explore the underlying data with pagination controls.
 
 1. Ensure the API server hosting the synthetic oil and gas data is operational
 2. Configure the custom Fivetran connector (built with Fivetran Connector SDK) to connect to the API server - debug and deploy
-3. Start the Fivetran sync in the Fivetran UI to move data into a `LOGLYNX` table in your Snowflake instance
+3. Start the Fivetran sync in the Fivetran UI to move data into a `FTS_RECORDS` table in your Snowflake instance
 4. Verify data is being loaded correctly by checking the table in Snowflake
 
 ## Data Flow
@@ -171,7 +171,7 @@ Explore the underlying data with pagination controls.
 
 3. **Automated Data Movement**: Fivetran manages the orchestration and scheduling of data movement from the API server into Snowflake
 
-4. **Data Loading**: The synthetic oil and gas data is loaded into Snowflake as a `LOGLYNX` table in a structured format ready for analysis
+4. **Data Loading**: The synthetic oil and gas data is loaded into Snowflake as a `FTS_RECORDS` table in a structured format ready for analysis
 
 5. **Agent Workflow Execution**: AI agents process the field operations data through specialized workflows, providing transparent step-by-step analysis
 
@@ -181,7 +181,7 @@ Explore the underlying data with pagination controls.
 
 ## Data Requirements
 
-The application expects a table named `LOGLYNX` which contains synthetic data simulating various oil and gas operational systems. This data is retrieved from an API server using a custom Fivetran connector built with the Fivetran Connector SDK:
+The application expects a table named `FTS_RECORDS` which contains synthetic data simulating various oil and gas operational systems. This data is retrieved from an API server using a custom Fivetran connector built with the Fivetran Connector SDK:
 
 ### Field Operations Data
 - `record_id`
